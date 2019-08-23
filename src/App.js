@@ -64,7 +64,7 @@ function App() {
 
   //clear items
   const clearItems = () => {
-    console.log("cleared all items");
+    setExpenses([]);
   };
   // handle delete
   const handleDelete = id => {
